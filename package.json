@@ -1,0 +1,27 @@
+{
+  "name": "swagger-ui",
+  "author": "Guang Lin <linguang661990@126.com>",
+  "contributors": [
+    {
+      "name": "linguang",
+      "email": "linguang661990@126.com"
+    }
+  ],
+  "description": "Showing the Js native object api with D3.js",
+  "version": "0.0.1",
+  "homepage": "http://blog.5udou.cn",
+  "license": "Apache-2.0",
+  "main": "dist/",
+  "scripts": {
+    "serve": "gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:linxiaowu66/Konan.git"
+  },
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0"
+  }
+}
