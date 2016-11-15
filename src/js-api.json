@@ -58,14 +58,14 @@
      "name": "local",
      "children": [
       {"name": "fromCharCode()", "size": 3938, "description": "根据指定的 Unicode 编码中的序号值来返回一个字符串", "ECMAScript":"1","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode"},
-      {"name": "fromCodePoint()", "size": 3812, "description": "使用指定的码点序列返回对应的字符串", "ECMAScript":"2015","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint"}，
+      {"name": "fromCodePoint()", "size": 3812, "description": "使用指定的码点序列返回对应的字符串", "ECMAScript":"2015","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint"},
       {"name": "raw()", "size": 3416,"description":"从模板字符串中获得原始字符串格式", "ECMAScript":"2015","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/raw"}
      ]
     },
     {
      "name": "prototype",
      "children": [
-      {"name": "anchor()", "size": 5731,"description":"创建一个 {{HTMLElement("a")}} HTML 锚元素，被用作超文本靶标", "ECMAScript":"2015","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/anchor"},
+      {"name": "anchor()", "size": 5731,"description":"创建一个 {{HTMLElement('a')}} HTML 锚元素，被用作超文本靶标", "ECMAScript":"2015","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/anchor"},
       {"name": "charAt()", "size": 7840,"description":"返回字符串中指定位置的字符", "ECMAScript":"1","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/charAt"},
       {"name": "charCodeAt()", "size": 5914,"description":"返回0到65535之间的整数，代表索引处字符的UTF-16编码单元", "ECMAScript":"1","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt"},
       {"name": "codePointAt()", "size": 3416,"description":"返回 一个 Unicode 编码点值的非负整数", "ECMAScript":"2015","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/codePointAt"},
@@ -81,7 +81,7 @@
       {"name": "padEnd()", "size": 3416,"description":"会用第二个参数中指定的填充字符串，在当前字符串的尾部不断填充，直到它达到第一个参数中指定的目标长度", "ECMAScript":"待定","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd"},
       {"name": "padStart()", "size": 3416,"description":"会用第二个参数中指定的填充字符串，在当前字符串的头部不断填充，直到它达到第一个参数中指定的目标长度", "ECMAScript":"待定","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/padStart"},
       {"name": "repeat()", "size": 3416,"description":"会构造并返回一个重复当前字符串若干次数的新字符串", "ECMAScript":"2015","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/repeat"},
-      {"name": "replace()", "size": 3416,"description":"方法使用一个替换值（replacement）替换掉一个匹配模式（pattern）在原字符串中某些或所有的匹配项，并返回替换后的新的字符串。这个替换模式可以是一个字符串或者一个 {{jsxref("RegExp")}}，替换值可以是一个字符串或者一个函数。", "ECMAScript":"3","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/replace"},
+      {"name": "replace()", "size": 3416,"description":"方法使用一个替换值（replacement）替换掉一个匹配模式（pattern）在原字符串中某些或所有的匹配项，并返回替换后的新的字符串。这个替换模式可以是一个字符串或者一个 {{jsxref('RegExp')}}，替换值可以是一个字符串或者一个函数。", "ECMAScript":"3","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/replace"},
       {"name": "search()", "size": 3416,"description":"执行一个查找，看该字符串对象与一个正则表达式是否匹配", "ECMAScript":"3","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/search"},
       {"name": "slice()", "size": 3416,"description":"提取字符串中的一部分，并返回这个新的字符串", "ECMAScript":"3","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/slice"},
       {"name": "split()", "size": 3416,"description":"通过把字符串分割成子字符串来把一个 String 对象分割成一个字符串数组", "ECMAScript":"3","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/split"},
@@ -110,7 +110,7 @@
      "name": "local",
      "children": [
       {"name": "assign()", "size": 3938, "description": "可以把任意多个的源对象自身的可枚举属性拷贝给目标对象，然后返回目标对象", "ECMAScript":"2015","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/assign"},
-      {"name": "create()", "size": 3812, "description": "创建一个拥有指定原型和若干个指定属性的对象", "ECMAScript":"5.1","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/create"}，
+      {"name": "create()", "size": 3812, "description": "创建一个拥有指定原型和若干个指定属性的对象", "ECMAScript":"5.1","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/create"},
       {"name": "defineProperties()", "size": 3416,"description":"在一个对象上添加或修改一个或者多个自有属性，并返回该对象", "ECMAScript":"5.1","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties"},
       {"name": "defineProperty()", "size": 3416,"description":"从模会直接在一个对象上定义一个新属性，或者修改一个已经存在的属性， 并返回这个对象", "ECMAScript":"5.1","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty"},
       {"name": "entries()", "size": 3416,"description":"返回一个包含由给定对象所有可枚举属性的属性名和属性值组成的 [属性名，属性值] 键值对的数组，数组中键值对的排列顺序和使用for...in循环遍历该对象时返回的顺序一致（两者的主要区别是 for-in 还会遍历出一个对象从其原型链上继承到的可枚举属性）", "ECMAScript":"2017","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/entries"},
@@ -140,6 +140,22 @@
       {"name": "valueOf()", "size": 3416,"description":"方法返回指定原始值.", "ECMAScript":"1","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/valueOf"},
       {"name": "seal()", "size": 3416,"description":"可以让一个对象密封，并返回被密封后的对象。密封对象是指那些不能添加新的属性，不能删除已有属性，以及不能修改已有属性的可枚举性、可配置性、可写性，但可能可以修改已有属性的值的对象。", "ECMAScript":"5.1","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/seal"},
       {"name": "setPrototypeOf()", "size": 3416,"description":"将一个指定的对象的原型设置为另一个对象或者null(既对象的[[Prototype]]内部属性).", "ECMAScript":"2015","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/setPrototypeOf"}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Function",
+   "children": [
+    {
+     "name": "prototype",
+     "children": [
+      {"name": "apply()", "size": 3938, "description": "在指定 this 值和参数（参数以数组或类数组对象的形式存在）的情况下调用某个函数", "ECMAScript":"3","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/apply"},
+      {"name": "bind()", "size": 3812, "description": "会创建一个新函数，当这个新函数被调用时，它的this值是传递给bind()的第一个参数, 它的参数是bind()的其他参数和其原本的参数.", "ECMAScript":"5.1","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/bind"},
+      {"name": "call()", "size": 3416,"description":"使用一个指定的this值和若干个指定的参数值的前提下调用某个函数或方法", "ECMAScript":"1","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/call"},
+      {"name": "isGenerator()", "size": 3416,"description":"判断一个函数是否是一个生成器.", "ECMAScript":"待定","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/isGenerator"},
+      {"name": "toSource()", "size": 3416,"description":"返回函数的源代码的字符串表示.", "ECMAScript":"待定","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/toSource"},
+      {"name": "toString()", "size": 3416,"description":"返回一个表示当前函数源代码的字符串", "ECMAScript":"5.1","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/toString"}
      ]
     }
    ]
