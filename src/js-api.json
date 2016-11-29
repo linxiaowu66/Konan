@@ -159,6 +159,30 @@
      ]
     }
    ]
+  },
+  {
+   "name": "Date",
+   "children": [
+    {
+     "name": "local",
+     "children": [
+      {"name": "UTC()", "size": 3938, "description": "接受的参数同日期构造函数接受最多参数时一样，返回从1970-1-1 00:00:00 UTC到指定日期的的毫秒数", "ECMAScript":"1","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/UTC"},
+      {"name": "now()", "size": 3812, "description": "返回自1970年1月1日 00:00:00 UTC到当前时间的毫秒数", "ECMAScript":"5.1","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/now"},
+      {"name": "parse()", "size": 3416,"description":"解析一个表示某个日期的字符串，并返回从1970-1-1 00:00:00 UTC 到该日期对象（该日期对象的UTC时间）的毫秒数，如果该字符串无法识别，或者一些情况下，包含了不合法的日期数值（如：2015-02-31），则返回值为NaN", "ECMAScript":"1","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/parse"}
+     ]
+    },
+    {
+     "name": "prototype",
+     "children": [
+      {"name": "getDate()", "size": 3938, "description": "根据本地时间，返回一个指定的日期对象为一个月中的第几天", "ECMAScript":"1","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/getDate"},
+      {"name": "getDay()", "size": 3812, "description": "根据本地时间，返回一个具体日期中一周的第几天，0 表示星期天", "ECMAScript":"1","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/getDay"},
+      {"name": "getFullYear()", "size": 3416,"description":"根据本地时间，返回一个指定日期对象的年份", "ECMAScript":"1","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/getFullYear"},
+      {"name": "isGenerator()", "size": 3416,"description":"判断一个函数是否是一个生成器.", "ECMAScript":"待定","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/isGenerator"},
+      {"name": "toSource()", "size": 3416,"description":"返回函数的源代码的字符串表示.", "ECMAScript":"待定","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/toSource"},
+      {"name": "toString()", "size": 3416,"description":"返回一个表示当前函数源代码的字符串", "ECMAScript":"5.1","url":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/toString"}
+     ]
+    }
+   ]
   }
  ]
 }
